@@ -1,3 +1,3 @@
 # cms
 
-A quick description of cms.
+A quick description of development.
