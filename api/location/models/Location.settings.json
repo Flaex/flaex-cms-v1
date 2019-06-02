@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "location",
+    "description": "User location information"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "city": {
+      "unique": true,
+      "required": true,
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "user": {
+      "model": "user",
+      "via": "locations",
+      "plugin": "users-permissions"
+    }
+  }
+}

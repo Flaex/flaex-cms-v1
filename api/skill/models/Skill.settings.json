@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "skill",
+    "description": "User skills information"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "unique": true,
+      "required": true,
+      "type": "string"
+    },
+    "icon": {
+      "required": true,
+      "type": "string"
+    },
+    "user": {
+      "model": "user",
+      "via": "skills",
+      "plugin": "users-permissions"
+    }
+  }
+}

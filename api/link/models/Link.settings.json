@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "link",
+    "description": "User contact information"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "required": true,
+      "type": "string"
+    },
+    "icon": {
+      "required": true,
+      "type": "string"
+    },
+    "url": {
+      "required": true,
+      "type": "string"
+    },
+    "user": {
+      "model": "user",
+      "via": "links",
+      "plugin": "users-permissions"
+    }
+  }
+}
