@@ -23,10 +23,6 @@
       "plugin": "upload",
       "required": true
     },
-    "headline": {
-      "required": true,
-      "type": "text"
-    },
     "summary": {
       "required": true,
       "type": "text"
@@ -39,6 +35,10 @@
       "model": "user",
       "via": "profile",
       "plugin": "users-permissions"
+    },
+    "headline": {
+      "required": true,
+      "type": "string"
     }
   }
 }

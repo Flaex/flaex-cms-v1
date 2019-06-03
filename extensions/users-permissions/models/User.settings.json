@@ -56,16 +56,8 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "profile": {
-      "model": "profile",
-      "via": "user"
-    },
     "locations": {
       "collection": "location",
-      "via": "user"
-    },
-    "skills": {
-      "collection": "skill",
       "via": "user"
     },
     "links": {
@@ -79,6 +71,14 @@
     "articles": {
       "collection": "article",
       "via": "author"
+    },
+    "skills": {
+      "collection": "skill",
+      "via": "user"
+    },
+    "profile": {
+      "model": "profile",
+      "via": "user"
     }
   }
 }
