@@ -1,0 +1,67 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "work",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "required": true,
+      "type": "string"
+    },
+    "year": {
+      "required": true,
+      "type": "string"
+    },
+    "city": {
+      "required": true,
+      "type": "string"
+    },
+    "description": {
+      "required": true,
+      "type": "text"
+    },
+    "category": {
+      "required": true,
+      "enum": [
+        "design",
+        "development"
+      ],
+      "type": "enumeration"
+    },
+    "subcategory": {
+      "required": true,
+      "enum": [
+        "logo",
+        "prints",
+        "web design",
+        "typography"
+      ],
+      "type": "enumeration"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "user": {
+      "model": "user",
+      "via": "works",
+      "plugin": "users-permissions"
+    }
+  }
+}
