@@ -25,6 +25,10 @@
       "model": "user",
       "via": "skills",
       "plugin": "users-permissions"
+    },
+    "prefix": {
+      "required": true,
+      "type": "string"
     }
   }
 }

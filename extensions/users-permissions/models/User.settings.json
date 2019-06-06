@@ -72,12 +72,12 @@
       "collection": "article",
       "via": "author"
     },
-    "skills": {
-      "collection": "skill",
-      "via": "user"
-    },
     "profile": {
       "model": "profile",
+      "via": "user"
+    },
+    "skills": {
+      "collection": "skill",
       "via": "user"
     }
   }
