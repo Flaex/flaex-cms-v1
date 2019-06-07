@@ -1,12 +1,15 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "link",
   "info": {
     "name": "link",
     "description": "User contact information"
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "title": {
@@ -25,6 +28,9 @@
       "model": "user",
       "via": "links",
       "plugin": "users-permissions"
+    },
+    "prefix": {
+      "type": "string"
     }
   }
 }

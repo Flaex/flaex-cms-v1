@@ -60,10 +60,6 @@
       "collection": "location",
       "via": "user"
     },
-    "links": {
-      "collection": "link",
-      "via": "user"
-    },
     "works": {
       "collection": "work",
       "via": "user"
@@ -78,6 +74,10 @@
     },
     "skills": {
       "collection": "skill",
+      "via": "user"
+    },
+    "links": {
+      "collection": "link",
       "via": "user"
     }
   }
