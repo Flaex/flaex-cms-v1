@@ -1,12 +1,15 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "work",
   "info": {
     "name": "work",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "title": {
@@ -39,7 +42,9 @@
         "logo",
         "prints",
         "web design",
-        "typography"
+        "typography",
+        "CMS themes",
+        "front-end"
       ],
       "type": "enumeration"
     },

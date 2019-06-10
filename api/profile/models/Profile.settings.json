@@ -39,6 +39,10 @@
     "headline": {
       "required": true,
       "type": "string"
+    },
+    "city": {
+      "required": true,
+      "type": "string"
     }
   }
 }

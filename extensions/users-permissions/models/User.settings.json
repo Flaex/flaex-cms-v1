@@ -60,17 +60,9 @@
       "collection": "location",
       "via": "user"
     },
-    "works": {
-      "collection": "work",
-      "via": "user"
-    },
     "articles": {
       "collection": "article",
       "via": "author"
-    },
-    "profile": {
-      "model": "profile",
-      "via": "user"
     },
     "skills": {
       "collection": "skill",
@@ -78,6 +70,14 @@
     },
     "links": {
       "collection": "link",
+      "via": "user"
+    },
+    "profile": {
+      "model": "profile",
+      "via": "user"
+    },
+    "works": {
+      "collection": "work",
       "via": "user"
     }
   }
