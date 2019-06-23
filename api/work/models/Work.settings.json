@@ -41,9 +41,9 @@
       "enum": [
         "logo",
         "prints",
-        "web design",
+        "web",
         "typography",
-        "CMS themes",
+        "CMS",
         "front-end"
       ],
       "type": "enumeration"
