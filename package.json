@@ -1,8 +1,8 @@
 {
-  "name": "cms",
+  "name": "flaex-cms",
   "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application.",
+  "version": "1.0.0",
+  "description": "Strapi CMS for flaex website",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -32,21 +32,21 @@
   },
   "author": {
     "name": "A Strapi developer",
-    "email": "",
-    "url": ""
+    "email": "fpolani@gmail.com",
+    "url": "https://twitter.com/Flaex_"
   },
   "maintainers": [
     {
       "name": "A Strapi developer",
-      "email": "",
-      "url": ""
+      "email": "fpolani@gmail.com",
+      "url": "https://twitter.com/Flaex_"
     }
   ],
   "strapi": {
     "uuid": "78cd6cc9-df2c-4642-886e-b44726bd1d79"
   },
   "engines": {
-    "node": "^10.0.0",
+    "node": "10.x",
     "npm": ">= 6.0.0"
   },
   "license": "MIT"
