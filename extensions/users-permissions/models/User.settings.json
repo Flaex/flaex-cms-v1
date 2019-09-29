@@ -72,12 +72,12 @@
       "collection": "link",
       "via": "user"
     },
-    "profile": {
-      "model": "profile",
-      "via": "user"
-    },
     "works": {
       "collection": "work",
+      "via": "user"
+    },
+    "profile": {
+      "model": "profile",
       "via": "user"
     }
   }
