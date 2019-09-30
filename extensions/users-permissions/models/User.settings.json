@@ -56,18 +56,6 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "locations": {
-      "collection": "location",
-      "via": "user"
-    },
-    "articles": {
-      "collection": "article",
-      "via": "author"
-    },
-    "skills": {
-      "collection": "skill",
-      "via": "user"
-    },
     "links": {
       "collection": "link",
       "via": "user"
@@ -76,8 +64,20 @@
       "collection": "work",
       "via": "user"
     },
+    "articles": {
+      "collection": "article",
+      "via": "author"
+    },
     "profile": {
       "model": "profile",
+      "via": "user"
+    },
+    "skills": {
+      "collection": "skill",
+      "via": "user"
+    },
+    "locations": {
+      "collection": "location",
       "via": "user"
     }
   }

@@ -43,18 +43,6 @@
     "city": {
       "required": true,
       "type": "string"
-    },
-    "summary_es": {
-      "required": true,
-      "type": "text"
-    },
-    "story_es": {
-      "required": true,
-      "type": "text"
-    },
-    "headline_es": {
-      "required": true,
-      "type": "string"
     }
   }
 }
