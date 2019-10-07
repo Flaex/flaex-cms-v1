@@ -60,10 +60,6 @@
       "collection": "link",
       "via": "user"
     },
-    "works": {
-      "collection": "work",
-      "via": "user"
-    },
     "articles": {
       "collection": "article",
       "via": "author"
@@ -78,6 +74,10 @@
     },
     "locations": {
       "collection": "location",
+      "via": "user"
+    },
+    "works": {
+      "collection": "work",
       "via": "user"
     }
   }
