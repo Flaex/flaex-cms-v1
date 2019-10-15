@@ -33,6 +33,17 @@
       "model": "user",
       "via": "articles",
       "plugin": "users-permissions"
+    },
+    "img_title": {
+      "type": "string",
+      "default": "Image title"
+    },
+    "img-alt": {
+      "type": "string",
+      "default": "Image short description"
+    },
+    "tag": {
+      "type": "string"
     }
   }
 }

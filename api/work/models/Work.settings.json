@@ -69,9 +69,6 @@
       "model": "user",
       "via": "works",
       "plugin": "users-permissions"
-    },
-    "alternate_text": {
-      "type": "string"
     }
   }
 }
