@@ -69,6 +69,21 @@
       "model": "user",
       "via": "works",
       "plugin": "users-permissions"
+    },
+    "seo_description": {
+      "type": "text",
+      "default": "Description for SEO"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "img_title": {
+      "type": "string",
+      "default": "Image title"
+    },
+    "img_alt": {
+      "default": "Image short description",
+      "type": "string"
     }
   }
 }

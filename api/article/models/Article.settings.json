@@ -38,11 +38,18 @@
       "type": "string",
       "default": "Image title"
     },
-    "img-alt": {
+    "img_alt": {
       "type": "string",
       "default": "Image short description"
     },
     "tag": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "text",
+      "default": "Description for SEO"
+    },
+    "slug": {
       "type": "string"
     }
   }
